@@ -1,19 +1,29 @@
-# Halfis Mutaqin — Personal Portfolio & Engineering Showcase 🚀
+# Hadi (Halfis) Mutaqin — Developer Portfolio & Engineering Showcase 🚀
 
 Live Website: **[https://halfismutaqin.github.io](https://halfismutaqin.github.io)**
 
-Personal developer portfolio of **Halfis (Hadi) Mutaqin, S.Kom.** — Fullstack Software Engineer & Backend Specialist.
+Personal developer portfolio of **Hadi Mutaqin, S.Kom.** — Programmer specializing in **ERP Systems (SAP Business One Architecture, Custom ERPs)**, **Enterprise Web Development (Laravel, CodeIgniter, VB.NET, REST APIs)**, and **Technical SEO & Performance Optimization**.
 
-## 🛠️ Tech Stack & Architecture
-- **UI & Styling:** Tailwind CSS, JetBrains Mono, Plus Jakarta Sans, FontAwesome 6
-- **Architecture:** Responsive Single Page Application (SPA), Dark Mode Glassmorphism
-- **Hosting:** GitHub Pages (Static Hosting)
+---
 
-## 📌 Sections
-- **Hero & Identity:** Professional summary, Cum Laude academic recognition (GPA 3.83/4.00), and core value propositions.
-- **About Me:** Professional background, software house leadership, and technical ethos.
-- **Skills Matrix:** Categorized technical proficiency (Backend, Frontend, Databases, DevOps, APIs, and Best Practices).
-- **Featured Projects:** Production showcases including Family LIMS, Kas Digital Financial Engine, ArchStore, SIMRS Hospital Middleware, and SIMM.
-- **Experience & Education Timeline:** Professional career path and verified academic milestones.
-- **Verified Credentials:** National competency certifications by Kominfo & BNSP.
-- **Contact:** Direct links to LinkedIn, GitHub, WhatsApp, and email communication.
+## 💼 Professional Experience & Core Domains
+- **PT. Indo Cali Plast (June 2025 – Present):** Staff Programmer — SAP Business One core architecture customization (VB.NET), manufacturing & inventory modules, corporate web server maintenance & technical SEO (`indocaliplast.com`).
+- **Half Tech Digital (October 2019 – Present):** Freelance Web Developer — Custom web-based information systems, responsive applications, and client-tailored digital solutions.
+- **PT. Berkah Berkat Bersatu (November 2024 – November 2025):** Programmer — Multi-client custom ERP systems (CodeIgniter 3) & Laravel RESTful APIs for cross-platform data integration.
+- **PT. EON Global Solusi (December 2024 – May 2025):** Programmer — Enterprise Application Systems (EAS) modules in VB.NET & client web systems.
+- **PT. Kalbe Farma, Tbk. (April 2023 – September 2024):** PHP Web Developer — Corporate E-Procurement (E-Proc) integrating 5 subsidiaries (Kalbe Farma, Dankos Farma, Hexpharm Jaya, Finusolprima, Global Onkolab) with PR/PO cycles, vendor evaluation (EKV), and tender management.
+
+---
+
+## 🏆 Education & Certifications
+- **S1 Sistem Informasi (GPA: 3.83 / 4.00, Cum Laude):** Universitas Duta Bangsa Surakarta (2018–2022).
+- **VSGA Best Participant Award (Junior Web Developer):** DTS Workshop 2022, BPSDMP Kominfo Yogyakarta.
+- **Sertifikasi Kompetensi BNSP / Kominfo:** Junior Web Developer, Programmer Junior, Junior Technical Support.
+
+---
+
+## 🛠️ Stack & Technologies
+- **ERP & Architecture:** SAP Business One, VB.NET, E-Procurement, EAS, System Analysis.
+- **Web & Backend:** PHP (Laravel, CodeIgniter), Golang (Gin), Python (FastAPI), React.js, Vue.js, REST APIs, WebSockets.
+- **Databases:** MySQL / MariaDB, SQL Server, PostgreSQL, Firebird DB.
+- **SEO & Infrastructure:** Technical SEO, Schema.org, Core Web Vitals, Linux & Windows Hosting.

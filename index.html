@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halfis Mutaqin | Fullstack Software Engineer & Backend Specialist</title>
-    <meta name="description" content="Portfolio of Halfis (Hadi) Mutaqin — Fullstack Software Engineer, Backend Specialist (Go, Laravel, FastAPI), and Android Developer. Cum Laude Information Systems Graduate (GPA 3.83).">
-    <meta name="keywords" content="Halfis Mutaqin, Hadi Mutaqin, Fullstack Developer, Backend Engineer, Laravel, Golang, FastAPI, React, Android Kotlin, Portfolio">
-    <meta name="author" content="Halfis Mutaqin">
+    <title>Hadi (Halfis) Mutaqin | ERP Specialist, Enterprise Web Developer & Technical SEO</title>
+    <meta name="description" content="Portfolio of Hadi (Halfis) Mutaqin — Programmer specializing in ERP Systems (SAP B1, Custom ERPs), Enterprise Web Development (Laravel, CodeIgniter, VB.NET, REST APIs), and Technical SEO Optimization. Cum Laude Information Systems (GPA 3.83).">
+    <meta name="keywords" content="Hadi Mutaqin, Halfis Mutaqin, ERP Developer, SAP Business One, E-Procurement, Laravel, CodeIgniter, VB.NET, Technical SEO, Web Developer, Kalbe Farma, Indo Cali Plast, Portfolio">
+    <meta name="author" content="Hadi Mutaqin (Halfis Mutaqin)">
 
     <!-- Open Graph / Meta -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://halfismutaqin.github.io/">
-    <meta property="og:title" content="Halfis Mutaqin | Fullstack Software Engineer">
-    <meta property="og:description" content="Explore projects, skills, certifications, and experience in building scalable backend architectures and modern web apps.">
-    <meta property="og:image" content="images/halfis-profile.png">
+    <meta property="og:title" content="Hadi (Halfis) Mutaqin | ERP, Web Development & Technical SEO">
+    <meta property="og:description" content="Explore enterprise ERP implementations, fullstack web architectures, and technical SEO optimizations by Hadi Mutaqin.">
+    <meta property="og:image" content="https://halfismutaqin.github.io/images/halfis-profile.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/halfis-profile.png">
+    <!-- Tab Title Icon: Professional Code/Tech SVG Favicon (NOT face photo) -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="shortcut icon" href="images/favicon.svg">
 
     <!-- Fonts: Plus Jakarta Sans & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,7 +76,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -91,7 +91,7 @@
         }
 
         .glassmorphism {
-            background: rgba(17, 24, 39, 0.75);
+            background: rgba(17, 24, 39, 0.8);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.08);
@@ -103,22 +103,6 @@
             -webkit-text-fill-color: transparent;
         }
 
-        .gradient-border {
-            position: relative;
-            background: #111827;
-            background-clip: padding-box;
-            border: 1px solid transparent;
-        }
-        .gradient-border::before {
-            content: '';
-            position: absolute;
-            top: 0; right: 0; bottom: 0; left: 0;
-            z-index: -1;
-            margin: -1px;
-            border-radius: inherit;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.5), rgba(168, 85, 247, 0.5), rgba(236, 72, 153, 0.2));
-        }
-
         .glow-effect {
             box-shadow: 0 0 50px -10px rgba(99, 102, 241, 0.25);
         }
@@ -126,7 +110,7 @@
 </head>
 <body class="bg-dark-bg text-slate-100 font-sans selection:bg-brand-500 selection:text-white antialiased overflow-x-hidden">
 
-    <!-- Ambient Background Lighting -->
+    <!-- Ambient Lighting Background -->
     <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-600/15 rounded-full blur-[128px]"></div>
         <div class="absolute top-1/3 -right-40 w-96 h-96 bg-purple-600/15 rounded-full blur-[128px]"></div>
@@ -137,28 +121,28 @@
     <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-                <!-- Brand Logo -->
+                <!-- Brand Logo (Icon & Name) -->
                 <a href="#home" class="flex items-center gap-3 group">
                     <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-purple-600 flex items-center justify-center text-white font-mono font-bold text-lg shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-                        HM
+                        <i class="fa-solid fa-code text-base"></i>
                     </div>
                     <div class="flex flex-col">
-                        <span class="text-lg font-bold tracking-tight text-white group-hover:text-brand-400 transition-colors">Halfis Mutaqin</span>
-                        <span class="text-xs text-slate-400 font-mono -mt-1">Fullstack Engineer</span>
+                        <span class="text-lg font-bold tracking-tight text-white group-hover:text-brand-400 transition-colors">Hadi Mutaqin</span>
+                        <span class="text-xs text-slate-400 font-mono -mt-1">ERP &bull; Web &bull; SEO</span>
                     </div>
                 </a>
 
                 <!-- Desktop Nav -->
-                <nav class="hidden md:flex items-center gap-1 bg-dark-card/80 backdrop-blur-md px-4 py-2 rounded-full border border-slate-800 shadow-xl">
+                <nav class="hidden md:flex items-center gap-1 bg-dark-card/85 backdrop-blur-md px-4 py-2 rounded-full border border-slate-800 shadow-xl">
                     <a href="#about" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">About</a>
-                    <a href="#skills" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Skills</a>
-                    <a href="#projects" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Projects</a>
+                    <a href="#specialties" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Core Pillars</a>
                     <a href="#experience" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Experience</a>
-                    <a href="#certifications" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Certifications</a>
+                    <a href="#projects" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Projects</a>
+                    <a href="#skills" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Skills</a>
                     <a href="#contact" class="px-4 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-all">Contact</a>
                 </nav>
 
-                <!-- Action Button -->
+                <!-- Actions -->
                 <div class="hidden lg:flex items-center gap-3">
                     <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="p-2.5 text-slate-400 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all border border-transparent hover:border-slate-700" title="GitHub Profile">
                         <i class="fa-brands fa-github text-lg"></i>
@@ -168,24 +152,24 @@
                     </a>
                     <a href="#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-purple-600 hover:from-brand-500 hover:to-purple-500 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-brand-600/25 transition-all transform hover:-translate-y-0.5">
                         <i class="fa-solid fa-paper-plane text-xs"></i>
-                        <span>Let's Talk</span>
+                        <span>Contact Me</span>
                     </a>
                 </div>
 
-                <!-- Mobile Menu Toggle -->
+                <!-- Mobile Menu Button -->
                 <button id="mobile-toggle" class="md:hidden p-2 text-slate-400 hover:text-white focus:outline-none" aria-label="Toggle Navigation">
                     <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
                 </button>
             </div>
         </div>
 
-        <!-- Mobile Nav Menu -->
+        <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="hidden md:hidden glassmorphism border-t border-slate-800/80 px-6 py-6 space-y-3">
             <a href="#about" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">About</a>
-            <a href="#skills" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Skills</a>
-            <a href="#projects" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Projects</a>
+            <a href="#specialties" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Core Pillars</a>
             <a href="#experience" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Experience</a>
-            <a href="#certifications" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Certifications</a>
+            <a href="#projects" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Projects</a>
+            <a href="#skills" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Skills</a>
             <a href="#contact" class="block py-2 text-base font-medium text-slate-300 hover:text-white mobile-link">Contact</a>
             <div class="pt-4 border-t border-slate-800 flex items-center gap-4">
                 <a href="https://github.com/Halfismutaqin" target="_blank" class="text-slate-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
@@ -198,104 +182,103 @@
     <main class="relative z-10 pt-28">
 
         <!-- HERO SECTION -->
-        <section id="home" class="py-12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="home" class="py-12 md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
                 
-                <!-- Left Content -->
+                <!-- Left Hero Information -->
                 <div class="lg:col-span-7 space-y-6">
                     
-                    <!-- Availability Badge -->
+                    <!-- Availability Pill -->
                     <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wide">
                         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                        Available for Full-time Roles & High-Impact Engineering
+                        Open for Full-time Roles & Enterprise Software Projects
                     </div>
 
                     <!-- Main Headline -->
                     <div class="space-y-2">
-                        <p class="text-brand-400 font-mono text-sm uppercase tracking-wider font-semibold">Hello, I'm</p>
+                        <p class="text-brand-400 font-mono text-sm uppercase tracking-wider font-semibold">Programmer & Enterprise Engineer</p>
                         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                            Halfis Mutaqin
+                            Hadi Mutaqin <span class="text-slate-400 text-3xl sm:text-4xl font-normal font-sans">(Halfis)</span>
                         </h1>
-                        <h2 class="text-2xl sm:text-3xl font-bold text-slate-300 pt-1">
-                            <span class="gradient-text">Fullstack Software Engineer</span> & Backend Specialist
+                        <h2 class="text-2xl sm:text-3xl font-bold text-slate-200 pt-1">
+                            Specializing in <span class="gradient-text">ERP Systems</span>, <span class="text-white">Web Development</span> & <span class="text-brand-300">Technical SEO</span>
                         </h2>
                     </div>
 
-                    <!-- Pitch / Value Proposition -->
+                    <!-- Professional Summary tailored to CV -->
                     <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
-                        I architect and build robust backend engines, high-throughput REST APIs, and reactive web & mobile applications. Graduated <span class="text-white font-semibold underline decoration-brand-500 underline-offset-4">Cum Laude in Information Systems (GPA 3.83/4.00)</span> with 4+ years of real-world development experience in <strong class="text-white">PHP (Laravel), Golang (Gin), Python (FastAPI), React</strong>, and <strong class="text-white">Android (Kotlin)</strong>.
+                        Experienced programmer with strong foundations in business logic, system analysis, and decision-making. Proven record designing and deploying <strong class="text-white">custom ERP modules (SAP Business One core architecture, VB.NET, CodeIgniter)</strong>, <strong class="text-white">enterprise E-Procurement systems (PT Kalbe Farma Tbk)</strong>, <strong class="text-white">RESTful APIs</strong>, and managing corporate web servers with <strong class="text-white">technical SEO & performance optimization</strong>.
                     </p>
 
-                    <!-- Key Badges -->
+                    <!-- Key Metrics Badges -->
                     <div class="flex flex-wrap gap-2.5 pt-1">
-                        <span class="px-3 py-1 text-xs font-mono bg-slate-800/90 text-slate-300 border border-slate-700 rounded-lg flex items-center gap-1.5">
-                            <i class="fa-solid fa-graduation-cap text-brand-400"></i> GPA 3.83 / 4.00 (Honors)
+                        <span class="px-3 py-1.5 text-xs font-mono bg-slate-800/90 text-slate-200 border border-slate-700 rounded-lg flex items-center gap-1.5">
+                            <i class="fa-solid fa-industry text-brand-400"></i> ERP & SAP B1 Architecture
                         </span>
-                        <span class="px-3 py-1 text-xs font-mono bg-slate-800/90 text-slate-300 border border-slate-700 rounded-lg flex items-center gap-1.5">
-                            <i class="fa-solid fa-code text-purple-400"></i> 4+ Years Experience
+                        <span class="px-3 py-1.5 text-xs font-mono bg-slate-800/90 text-slate-200 border border-slate-700 rounded-lg flex items-center gap-1.5">
+                            <i class="fa-solid fa-cart-flatbed text-purple-400"></i> E-Procurement (5 Kalbe Subsidiaries)
                         </span>
-                        <span class="px-3 py-1 text-xs font-mono bg-slate-800/90 text-slate-300 border border-slate-700 rounded-lg flex items-center gap-1.5">
-                            <i class="fa-solid fa-shield-halved text-emerald-400"></i> 4x BNSP/Kominfo Certified
+                        <span class="px-3 py-1.5 text-xs font-mono bg-slate-800/90 text-slate-200 border border-slate-700 rounded-lg flex items-center gap-1.5">
+                            <i class="fa-solid fa-chart-line text-emerald-400"></i> Technical SEO & Usability
                         </span>
-                        <span class="px-3 py-1 text-xs font-mono bg-slate-800/90 text-slate-300 border border-slate-700 rounded-lg flex items-center gap-1.5">
-                            <i class="fa-solid fa-location-dot text-rose-400"></i> Indonesia (Remote Ready)
+                        <span class="px-3 py-1.5 text-xs font-mono bg-slate-800/90 text-slate-200 border border-slate-700 rounded-lg flex items-center gap-1.5">
+                            <i class="fa-solid fa-graduation-cap text-yellow-400"></i> GPA 3.83 (Cum Laude)
                         </span>
                     </div>
 
                     <!-- Call To Actions -->
                     <div class="flex flex-wrap items-center gap-4 pt-4">
                         <a href="#projects" class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 via-indigo-600 to-purple-600 hover:from-brand-500 hover:to-purple-500 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg shadow-brand-600/30 transition-all transform hover:-translate-y-0.5">
-                            <span>Explore Featured Work</span>
+                            <span>Explore ERP & Web Projects</span>
                             <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/halfismutaqin/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 text-white font-medium px-6 py-3.5 rounded-xl border border-slate-700 transition-all hover:border-slate-500">
                             <i class="fa-brands fa-linkedin text-brand-400"></i>
-                            <span>Connect on LinkedIn</span>
+                            <span>View LinkedIn Profile</span>
                         </a>
-                        <a href="mailto:halfismutaqin@gmail.com" class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 text-white font-medium px-5 py-3.5 rounded-xl border border-slate-700 transition-all hover:border-slate-500" title="Send Email">
+                        <a href="mailto:halfismutaqin@gmail.com" class="inline-flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 text-white font-medium px-5 py-3.5 rounded-xl border border-slate-700 transition-all hover:border-slate-500" title="Direct Email">
                             <i class="fa-solid fa-envelope text-slate-300"></i>
                             <span>Email</span>
                         </a>
                     </div>
                 </div>
 
-                <!-- Right Profile Visual -->
+                <!-- Right Hero Visual Card -->
                 <div class="lg:col-span-5 flex justify-center items-center relative">
-                    <!-- Glow Behind Picture -->
                     <div class="absolute w-72 h-72 sm:w-88 sm:h-88 bg-gradient-to-tr from-brand-600/30 to-purple-600/30 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
 
-                    <!-- Profile Image Card -->
+                    <!-- Profile Card -->
                     <div class="relative group">
                         <div class="w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[420px] rounded-3xl overflow-hidden p-1.5 bg-gradient-to-br from-brand-500 via-purple-500 to-pink-500 shadow-2xl shadow-brand-500/20 transform group-hover:scale-[1.02] transition-transform duration-500">
                             <div class="w-full h-full rounded-[22px] overflow-hidden bg-slate-900 relative">
-                                <img src="images/halfis-profile.png" alt="Halfis Mutaqin" class="w-full h-full object-cover object-top filter contrast-[1.03]">
-                                <div class="absolute inset-0 bg-gradient-to-t from-dark-bg/80 via-transparent to-transparent"></div>
+                                <img src="images/halfis-profile.png" alt="Hadi Mutaqin" class="w-full h-full object-cover object-top filter contrast-[1.03]">
+                                <div class="absolute inset-0 bg-gradient-to-t from-dark-bg/85 via-transparent to-transparent"></div>
                                 <div class="absolute bottom-4 left-4 right-4 text-center">
-                                    <p class="text-white font-bold text-sm tracking-wide">Halfis Mutaqin, S.Kom.</p>
-                                    <p class="text-xs text-brand-300 font-mono">B.S. Information Systems (Honors)</p>
+                                    <p class="text-white font-bold text-sm tracking-wide">Hadi Mutaqin, S.Kom.</p>
+                                    <p class="text-xs text-brand-300 font-mono">B.S. Information Systems (GPA 3.83)</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Floating Stat Badge 1 (Top Left) -->
-                        <div class="absolute -top-3 -left-6 bg-dark-card/90 backdrop-blur-md border border-slate-700/80 px-4 py-2 rounded-2xl shadow-xl flex items-center gap-3 animate-float">
-                            <div class="w-9 h-9 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">
-                                <i class="fa-solid fa-code"></i>
+                        <!-- Floating Badge 1 (Top Left): ERP -->
+                        <div class="absolute -top-3 -left-6 bg-dark-card/95 backdrop-blur-md border border-slate-700/80 px-4 py-2 rounded-2xl shadow-xl flex items-center gap-3 animate-float">
+                            <div class="w-9 h-9 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center font-bold text-sm">
+                                <i class="fa-solid fa-network-wired"></i>
                             </div>
                             <div>
-                                <p class="text-xs text-slate-400 font-medium">Stack Focus</p>
-                                <p class="text-xs font-bold text-white">Fullstack & APIs</p>
+                                <p class="text-[11px] text-slate-400 font-medium">Core Expertise</p>
+                                <p class="text-xs font-bold text-white">ERP & SAP B1</p>
                             </div>
                         </div>
 
-                        <!-- Floating Stat Badge 2 (Bottom Right) -->
-                        <div class="absolute -bottom-4 -right-4 bg-dark-card/90 backdrop-blur-md border border-slate-700/80 px-4 py-2.5 rounded-2xl shadow-xl flex items-center gap-3">
+                        <!-- Floating Badge 2 (Bottom Right): SEO & Performance -->
+                        <div class="absolute -bottom-4 -right-4 bg-dark-card/95 backdrop-blur-md border border-slate-700/80 px-4 py-2.5 rounded-2xl shadow-xl flex items-center gap-3">
                             <div class="w-9 h-9 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">
-                                <i class="fa-solid fa-award"></i>
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
                             </div>
                             <div>
-                                <p class="text-xs text-slate-400 font-medium">Academics</p>
-                                <p class="text-xs font-bold text-emerald-400">Cum Laude (3.83)</p>
+                                <p class="text-[11px] text-slate-400 font-medium">Specialization</p>
+                                <p class="text-xs font-bold text-emerald-400">Technical SEO</p>
                             </div>
                         </div>
                     </div>
@@ -303,311 +286,538 @@
 
             </div>
 
-            <!-- KEY NUMBERS BAR -->
-            <div class="mt-16 sm:mt-24 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            <!-- KEY NUMBERS STRIP -->
+            <div class="mt-16 sm:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                 
                 <div class="glassmorphism p-6 rounded-2xl border border-slate-800 text-center hover:border-slate-700 transition-all">
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono gradient-text">4+</p>
-                    <p class="text-sm text-slate-300 font-medium mt-1">Years Production Experience</p>
-                    <p class="text-xs text-slate-400 mt-0.5">Software House & Freelance</p>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono gradient-text">6+</p>
+                    <p class="text-sm text-slate-300 font-medium mt-1">Enterprise Roles & Houses</p>
+                    <p class="text-xs text-slate-400 mt-0.5">Kalbe, Indo Cali Plast, EON, BBB</p>
                 </div>
 
                 <div class="glassmorphism p-6 rounded-2xl border border-slate-800 text-center hover:border-slate-700 transition-all">
                     <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono gradient-text">20+</p>
-                    <p class="text-sm text-slate-300 font-medium mt-1">Projects & Client Systems</p>
-                    <p class="text-xs text-slate-400 mt-0.5">Web, APIs & Mobile Apps</p>
+                    <p class="text-sm text-slate-300 font-medium mt-1">Systems, ERP & Web Apps</p>
+                    <p class="text-xs text-slate-400 mt-0.5">Manufacturing, Procurement, Commerce</p>
                 </div>
 
                 <div class="glassmorphism p-6 rounded-2xl border border-slate-800 text-center hover:border-slate-700 transition-all">
                     <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono text-emerald-400">3.83</p>
-                    <p class="text-sm text-slate-300 font-medium mt-1">GPA / 4.00 (Cum Laude)</p>
-                    <p class="text-xs text-slate-400 mt-0.5">Universitas Duta Bangsa</p>
+                    <p class="text-sm text-slate-300 font-medium mt-1">Bachelor GPA (Cum Laude)</p>
+                    <p class="text-xs text-slate-400 mt-0.5">Univ. Duta Bangsa Surakarta</p>
                 </div>
 
                 <div class="glassmorphism p-6 rounded-2xl border border-slate-800 text-center hover:border-slate-700 transition-all">
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono text-purple-400">4</p>
-                    <p class="text-sm text-slate-300 font-medium mt-1">National Certifications</p>
-                    <p class="text-xs text-slate-400 mt-0.5">Kominfo & BNSP Verified</p>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white font-mono text-purple-400">5x</p>
+                    <p class="text-sm text-slate-300 font-medium mt-1">National Awards & Certs</p>
+                    <p class="text-xs text-slate-400 mt-0.5">VSGA Best Award &bull; BNSP &bull; Kominfo</p>
                 </div>
 
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
-        <section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-                
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider">
-                        <i class="fa-solid fa-user"></i> About Me
-                    </div>
-                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-                        Engineering Pragmatic Software with Rigorous Standards
-                    </h2>
-                    <p class="text-slate-300 leading-relaxed">
-                        I am a fullstack software engineer based in Central Java, Indonesia. With a formal academic foundation in Information Systems and years of hands-on production engineering, I bridge clean business logic with performant software architectures.
-                    </p>
-                    <p class="text-slate-300 leading-relaxed">
-                        Whether designing event-driven REST APIs, configuring payment and logistics gateways, or integrating hardware telemetry with real-time dashboards, I place strong emphasis on clean code, database optimization, structured audit logging, and security.
-                    </p>
-
-                    <!-- Quick Credentials Table -->
-                    <div class="bg-dark-card border border-slate-800 rounded-2xl p-5 space-y-3 font-mono text-xs">
-                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
-                            <span class="text-slate-400">Full Name</span>
-                            <span class="text-white font-sans font-semibold">Halfis Mutaqin (Hadi Mutaqin)</span>
-                        </div>
-                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
-                            <span class="text-slate-400">Degree</span>
-                            <span class="text-emerald-400 font-sans font-semibold">S1 Sistem Informasi (GPA: 3.83)</span>
-                        </div>
-                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
-                            <span class="text-slate-400">Alma Mater</span>
-                            <span class="text-slate-200 font-sans">Universitas Duta Bangsa Surakarta</span>
-                        </div>
-                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
-                            <span class="text-slate-400">Email</span>
-                            <a href="mailto:halfismutaqin@gmail.com" class="text-brand-400 font-sans hover:underline">halfismutaqin@gmail.com</a>
-                        </div>
-                        <div class="flex justify-between pb-2 border-b border-slate-800/80">
-                            <span class="text-slate-400">Phone / WA</span>
-                            <a href="https://wa.me/6285894464249" class="text-slate-200 font-sans hover:text-white">(+62) 858 9446 4249</a>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-slate-400">Location</span>
-                            <span class="text-slate-200 font-sans">Karanganyar / Surakarta, Indonesia</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    
-                    <!-- Core Value 1 -->
-                    <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-brand-500/50 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-400 flex items-center justify-center text-xl mb-4">
-                            <i class="fa-solid fa-server"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Backend Architecture</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Crafting scalable microservices and monolithic APIs with Laravel, Golang (Gin), and FastAPI. Focused on high concurrency, caching, and clean repository patterns.
-                        </p>
-                    </div>
-
-                    <!-- Core Value 2 -->
-                    <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-purple-500/50 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl mb-4">
-                            <i class="fa-solid fa-laptop-code"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Interactive Frontend</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Developing responsive SPAs and reactive user interfaces with modern React, Vue.js, Tailwind CSS, and WebSockets for real-time state updates.
-                        </p>
-                    </div>
-
-                    <!-- Core Value 3 -->
-                    <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-emerald-500/50 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
-                            <i class="fa-solid fa-mobile-screen-button"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Android & Native Sensors</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Android development with Kotlin, CameraX integration, background telemetry, and Google FusedLocationProviderClient adhering to official permissions standards.
-                        </p>
-                    </div>
-
-                    <!-- Core Value 4 -->
-                    <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-pink-500/50 transition-all">
-                        <div class="w-12 h-12 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-xl mb-4">
-                            <i class="fa-solid fa-credit-card"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-white mb-2">Integrations & Payments</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">
-                            Seamless integration of Midtrans Payment Gateway, RajaOngkir shipping APIs, Leaflet/OSM geo-mapping, and Firebase Cloud Messaging (FCM).
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- SKILLS MATRIX -->
-        <section id="skills" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
+        <!-- CORE PILLARS SECTION (ERP, WEB DEV, TECHNICAL SEO) -->
+        <section id="specialties" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">
-                    <i class="fa-solid fa-layer-group"></i> Technical Capabilities
+                    <i class="fa-solid fa-shapes"></i> What Recruiters Value Most
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
-                    Core Technologies & Production Stack
+                    Three Core Engineering Pillars
                 </h2>
                 <p class="text-slate-400 mt-3 text-base">
-                    Tools, languages, and frameworks I use on a daily basis to solve real business challenges.
+                    Combining enterprise-grade back-office software architecture with high-visibility web presence and search engine optimization.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <!-- Category 1: Backend -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-server"></i>
+                <!-- Pillar 1: ERP & Enterprise Systems -->
+                <div class="glassmorphism p-8 rounded-3xl border border-slate-800 hover:border-brand-500/60 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-14 h-14 rounded-2xl bg-brand-500/10 text-brand-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-industry"></i>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">Backend & APIs</h3>
-                            <p class="text-xs text-slate-400">Microservices, REST, WebSockets</p>
-                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            ERP & Enterprise Systems
+                        </h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Deep experience customizing and deploying ERP architectures for manufacturing, multi-subsidiary corporations, and supply chains.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-400 pt-2 border-t border-slate-800/80">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-0.5"></i>
+                                <span><strong>SAP Business One Core:</strong> ERP customization using VB.NET & data structure integration.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-0.5"></i>
+                                <span><strong>E-Procurement (Kalbe Farma):</strong> PR/PO cycle, vendor evaluation (EKV), and tender management across 5 subsidiaries.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-0.5"></i>
+                                <span><strong>Manufacturing & Inventory:</strong> Custom workflows, automated reconciliation, and bill of materials (BOM).</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">PHP (Laravel 8/9/10)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Golang (Gin-Gonic)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Python (FastAPI)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">CodeIgniter (3 & 4)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Node.js / Express</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">JWT & OAuth2</span>
-                    </div>
-                </div>
-
-                <!-- Category 2: Frontend & Mobile -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-display"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">Frontend & Mobile</h3>
-                            <p class="text-xs text-slate-400">Responsive UI & Native Apps</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">React.js</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Vue.js</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Android (Kotlin)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Tailwind CSS</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Bootstrap 5</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">CameraX API</span>
+                    <div class="pt-6 mt-6 border-t border-slate-800/80">
+                        <span class="text-xs font-mono text-brand-400">SAP B1 &bull; VB.NET &bull; CodeIgniter &bull; Laravel</span>
                     </div>
                 </div>
 
-                <!-- Category 3: Databases & Storage -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-database"></i>
+                <!-- Pillar 2: Web Development & REST APIs -->
+                <div class="glassmorphism p-8 rounded-3xl border border-slate-800 hover:border-purple-500/60 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-laptop-code"></i>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">Databases & Querying</h3>
-                            <p class="text-xs text-slate-400">Relational & Key-Value</p>
-                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
+                            Fullstack Web Development
+                        </h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Full lifecycle web applications from requirements analysis to responsive frontend engineering and scalable backend REST APIs.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-400 pt-2 border-t border-slate-800/80">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-purple-400 mt-0.5"></i>
+                                <span><strong>Backend Frameworks:</strong> PHP (Laravel, CodeIgniter), Golang (Gin), Python (FastAPI).</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-purple-400 mt-0.5"></i>
+                                <span><strong>Cross-Platform REST APIs:</strong> High-throughput endpoints, secure authentication, and webhook integrations.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-purple-400 mt-0.5"></i>
+                                <span><strong>Responsive Frontend:</strong> Modern React.js, Tailwind CSS, Bootstrap, and asynchronous UI workflows.</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">MySQL / MariaDB</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">PostgreSQL</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Firebird DB</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">SQLite</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Redis (Caching)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Index Optimization</span>
-                    </div>
-                </div>
-
-                <!-- Category 4: DevOps & Tools -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-gears"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">DevOps & Tooling</h3>
-                            <p class="text-xs text-slate-400">Deployment & Version Control</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Git & GitHub</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Docker</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Linux / Ubuntu</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Nginx & Apache</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Postman / OpenAPI</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">CI/CD Workflows</span>
+                    <div class="pt-6 mt-6 border-t border-slate-800/80">
+                        <span class="text-xs font-mono text-purple-400">Laravel &bull; Gin &bull; React &bull; Tailwind &bull; MySQL</span>
                     </div>
                 </div>
 
-                <!-- Category 5: Third-Party & Integrations -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-puzzle-piece"></i>
+                <!-- Pillar 3: Technical SEO & Web Performance -->
+                <div class="glassmorphism p-8 rounded-3xl border border-slate-800 hover:border-emerald-500/60 transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
                         </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">APIs & Integrations</h3>
-                            <p class="text-xs text-slate-400">Gateways & Cloud Services</p>
-                        </div>
+                        <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                            Technical SEO & Usability
+                        </h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Maximizing organic search discoverability and speed through technical SEO architecture, structured metadata, and server-level tuning.
+                        </p>
+                        <ul class="space-y-2.5 text-xs text-slate-400 pt-2 border-t border-slate-800/80">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+                                <span><strong>On-Page & Technical SEO:</strong> Semantic HTML5, Schema.org JSON-LD markup, OpenGraph, and XML sitemaps.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+                                <span><strong>Server & Hosting Management:</strong> Web server maintenance, Nginx/Apache caching, SSL, and DNS configuration.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+                                <span><strong>Core Web Vitals:</strong> Page speed optimization, responsive layout stability, and crawl budget efficiency.</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Midtrans Payment</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">RajaOngkir Logistics</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Firebase (FCM)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">OpenStreetMap / Leaflet</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">WhatsApp Webhooks</span>
-                    </div>
-                </div>
-
-                <!-- Category 6: Engineering Principles -->
-                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
-                    <div class="flex items-center gap-3 mb-5">
-                        <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-shield-check"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-base font-bold text-white">Best Practices</h3>
-                            <p class="text-xs text-slate-400">Security & Architecture</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Clean Architecture</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Role-Based Access (RBAC)</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Audit Trails</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Automated Migrations</span>
-                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Consent Verification</span>
+                    <div class="pt-6 mt-6 border-t border-slate-800/80">
+                        <span class="text-xs font-mono text-emerald-400">Technical SEO &bull; Core Web Vitals &bull; Hosting &bull; Caching</span>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- FEATURED PROJECTS SHOWCASE -->
+        <!-- WORK EXPERIENCE (Strictly Aligned with CV) -->
+        <section id="experience" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">
+                    <i class="fa-solid fa-briefcase"></i> Career History
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                    Professional Work Experience
+                </h2>
+                <p class="text-slate-400 mt-2 text-base">
+                    Documented timeline of enterprise programming, ERP customization, web development, and corporate system operations.
+                </p>
+            </div>
+
+            <div class="relative pl-6 sm:pl-8 border-l-2 border-slate-800 space-y-12 max-w-4xl mx-auto">
+                
+                <!-- Experience 1: PT Indo Cali Plast -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-brand-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-brand-500/30 p-6 sm:p-8 rounded-3xl hover:border-brand-500 transition-all shadow-xl">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                            <div>
+                                <span class="text-xs font-mono font-bold text-brand-400 px-3 py-1 bg-brand-500/10 rounded-full border border-brand-500/20">JUNE 2025 — CURRENT</span>
+                                <h3 class="text-xl font-bold text-white mt-2">Staff Programmer</h3>
+                                <p class="text-sm font-semibold text-slate-300">PT. Indo Cali Plast &bull; Karanganyar, Jawa Tengah</p>
+                            </div>
+                            <span class="text-xs font-mono text-slate-400 self-start sm:self-center bg-slate-800/80 px-2.5 py-1 rounded-md">ERP & Technical SEO</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Developed and customized the company’s ERP system based on the SAP Business One core architecture using VB.NET, aligning it directly with internal business operations. Managed and maintained the company's web server and corporate website (<a href="https://indocaliplast.com" target="_blank" rel="noopener noreferrer" class="text-brand-400 hover:underline">indocaliplast.com</a>) focusing on technical SEO, performance optimization, and digital brand presence.
+                        </p>
+                        <div class="space-y-2 text-xs text-slate-400 pt-3 border-t border-slate-800/80">
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-brand-400 mt-0.5"></i>
+                                <span>Designed and implemented custom ERP modules for manufacturing and inventory workflows.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-brand-400 mt-0.5"></i>
+                                <span>Integrated automation features based on SAP B1 data structures.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-brand-400 mt-0.5"></i>
+                                <span>Managed hosting and server performance to ensure continuous system stability.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-brand-400 mt-0.5"></i>
+                                <span>Developed and optimized the corporate website for SEO, search indexing, and user experience.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-brand-300 rounded font-mono">SAP Business One</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-purple-300 rounded font-mono">VB.NET</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-emerald-300 rounded font-mono">Technical SEO</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-blue-300 rounded font-mono">Web Server Hosting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2: Half Tech Digital -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-purple-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-slate-800 p-6 sm:p-8 rounded-3xl hover:border-purple-500/60 transition-all">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                            <div>
+                                <span class="text-xs font-mono font-bold text-purple-400 px-3 py-1 bg-purple-500/10 rounded-full border border-purple-500/20">OCTOBER 2019 — CURRENT</span>
+                                <h3 class="text-xl font-bold text-white mt-2">Freelance Web Developer</h3>
+                                <p class="text-sm font-semibold text-slate-300">Half Tech Digital &bull; Karanganyar, Jawa Tengah</p>
+                            </div>
+                            <span class="text-xs font-mono text-slate-400 self-start sm:self-center bg-slate-800/80 px-2.5 py-1 rounded-md">Software House</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Providing custom web and software development services for various business and institutional clients through Half Tech Digital Solutions, a software house specializing in web-based information systems, commerce, and application development.
+                        </p>
+                        <div class="space-y-2 text-xs text-slate-400 pt-3 border-t border-slate-800/80">
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-purple-400 mt-0.5"></i>
+                                <span>Develop and maintain dynamic websites, back-office admin portals, and internal applications.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-purple-400 mt-0.5"></i>
+                                <span>Implement responsive, mobile-first, and SEO-friendly web architectures.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-purple-400 mt-0.5"></i>
+                                <span>Collaborate closely with clients to deliver tailored digital solutions matching unique business needs.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">PHP (Laravel)</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">MySQL</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">SEO Optimization</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3: PT Berkah Berkat Bersatu -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-indigo-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-slate-800 p-6 sm:p-8 rounded-3xl hover:border-indigo-500/60 transition-all">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                            <div>
+                                <span class="text-xs font-mono font-bold text-indigo-400 px-3 py-1 bg-indigo-500/10 rounded-full border border-indigo-500/20">NOVEMBER 2024 — NOVEMBER 2025</span>
+                                <h3 class="text-xl font-bold text-white mt-2">Programmer</h3>
+                                <p class="text-sm font-semibold text-slate-300">PT. Berkah Berkat Bersatu &bull; Sukoharjo, Jawa Tengah</p>
+                            </div>
+                            <span class="text-xs font-mono text-slate-400 self-start sm:self-center bg-slate-800/80 px-2.5 py-1 rounded-md">ERP & API Integration</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Developed and implemented custom ERP systems for multiple corporate clients using CodeIgniter 3, tailored to each company's business processes and operational needs. Built and maintained RESTful API endpoints using Laravel to support data integration across different platforms.
+                        </p>
+                        <div class="space-y-2 text-xs text-slate-400 pt-3 border-t border-slate-800/80">
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-indigo-400 mt-0.5"></i>
+                                <span>Designed and deployed REST API services with Laravel for cross-platform integration.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-indigo-400 mt-0.5"></i>
+                                <span>Ensured clean architecture, optimized performance, and maintainable codebase.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-indigo-400 mt-0.5"></i>
+                                <span>Collaborated closely with clients to deliver reliable web-based business solutions across the full lifecycle.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Custom ERP</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">CodeIgniter 3</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Laravel REST API</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">System Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 4: PT EON Global Solusi -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-blue-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-slate-800 p-6 sm:p-8 rounded-3xl hover:border-blue-500/60 transition-all">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                            <div>
+                                <span class="text-xs font-mono font-bold text-blue-400 px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">DECEMBER 2024 — MAY 2025</span>
+                                <h3 class="text-xl font-bold text-white mt-2">Programmer</h3>
+                                <p class="text-sm font-semibold text-slate-300">PT. EON Global Solusi &bull; Karanganyar, Jawa Tengah</p>
+                            </div>
+                            <span class="text-xs font-mono text-slate-400 self-start sm:self-center bg-slate-800/80 px-2.5 py-1 rounded-md">Enterprise Application Systems (EAS)</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Designed, developed, and implemented Enterprise Application Systems (EAS) to support business operations and client needs. Conducted requirements analysis, translated business requirements into technical specifications, and developed integrated, scalable system modules.
+                        </p>
+                        <div class="space-y-2 text-xs text-slate-400 pt-3 border-t border-slate-800/80">
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-blue-400 mt-0.5"></i>
+                                <span>Built and maintained enterprise-level modules using VB.NET.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-blue-400 mt-0.5"></i>
+                                <span>Developed and deployed client websites tailored to business objectives.</span>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <i class="fa-solid fa-angle-right text-blue-400 mt-0.5"></i>
+                                <span>Conducted testing, debugging, and stakeholder alignment to ensure system reliability.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">VB.NET</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Enterprise EAS</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Client Websites</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Requirements Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 5: PT Kalbe Farma, Tbk. -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-emerald-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-emerald-500/30 p-6 sm:p-8 rounded-3xl hover:border-emerald-500 transition-all shadow-xl">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                            <div>
+                                <span class="text-xs font-mono font-bold text-emerald-400 px-3 py-1 bg-emerald-500/10 rounded-full border border-emerald-500/20">APRIL 2023 — SEPTEMBER 2024</span>
+                                <h3 class="text-xl font-bold text-white mt-2">PHP Web Developer</h3>
+                                <p class="text-sm font-semibold text-slate-300">PT. Kalbe Farma, Tbk. &bull; Cikarang, Jawa Barat</p>
+                            </div>
+                            <span class="text-xs font-mono text-emerald-400 self-start sm:self-center bg-emerald-500/10 px-2.5 py-1 rounded-md">Enterprise E-Procurement</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                            Developed and enhanced the corporate <strong class="text-white">E-Procurement (E-Proc) System</strong> for PT Kalbe Farma Tbk, unifying and automating purchasing workflows across <strong class="text-emerald-300">five major subsidiaries</strong>: PT Kalbe Farma Tbk, PT Dankos Farma, PT Hexpharm Jaya, PT Finusolprima Farma Internasional, and PT Global Onkolab Farma.
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300 pt-3 border-t border-slate-800/80">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Master Item & Master Code Management</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Purchase Request (PR) & Purchase Order (PO)</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>PO Monitoring & Complaint Handling</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Vendor Registration & Evaluation (EKV)</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Vendor Monitoring & Automated Email Blasting</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Comprehensive Tender Management System</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 pt-4">
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-emerald-300 rounded font-mono">E-Procurement</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">PHP & MySQL</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">5 Subsidiaries Integration</span>
+                            <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Tender Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Track -->
+                <div class="relative group">
+                    <div class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-5 h-5 rounded-full bg-slate-600 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
+                    <div class="bg-dark-card border border-slate-800 p-6 rounded-3xl">
+                        <span class="text-xs font-mono font-bold text-slate-400 px-3 py-1 bg-slate-800 rounded-full">INTERNSHIP HISTORY</span>
+                        <div class="mt-4 space-y-4">
+                            <div>
+                                <h4 class="text-base font-bold text-white">Programmer Intern — Duxeos Software House</h4>
+                                <p class="text-xs text-slate-400">2020 &bull; Sangkrah, Pasar Kliwon Surakarta &bull; Web development & internal applications</p>
+                            </div>
+                            <div class="pt-2 border-t border-slate-800">
+                                <h4 class="text-base font-bold text-white">IT Support Intern — ICT Center FISIP UNS</h4>
+                                <p class="text-xs text-slate-400">2017 &bull; Universitas Sebelas Maret Surakarta &bull; Network infrastructure, hardware troubleshooting, and workstation maintenance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FEATURED PROJECTS SHOWCASE (ERP, WEB DEV, SEO PRIORITIZED) -->
         <section id="projects" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                 <div>
                     <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">
-                        <i class="fa-solid fa-code-branch"></i> Portfolio Showcase
+                        <i class="fa-solid fa-cubes"></i> Recruiter Focus Portfolio
                     </div>
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
-                        Featured Engineering Projects
+                        Featured Systems & Engineering Projects
                     </h2>
                     <p class="text-slate-400 mt-2 text-base">
-                        Real-world software built with performance, security, and user experience in mind.
+                        Prioritizing ERP architecture, enterprise web systems, and technical SEO performance.
                     </p>
                 </div>
 
                 <!-- Filter Buttons -->
                 <div class="flex flex-wrap gap-2" id="project-filters">
                     <button class="filter-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-brand-600 text-white transition-all" data-filter="all">All Projects</button>
-                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="backend">Backend & API</button>
-                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="fullstack">Fullstack Web</button>
-                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="mobile">Mobile & Telemetry</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="erp">ERP & Enterprise</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="web">Web Development</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all" data-filter="seo">SEO & Infrastructure</button>
                 </div>
             </div>
 
             <!-- Project Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
 
-                <!-- Project 1: Family LIMS (Flagship) -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="mobile fullstack">
+                <!-- Project 1: Kalbe Farma E-Procurement -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="erp web">
+                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6 border-b border-slate-800">
+                        <div class="text-center space-y-2">
+                            <div class="w-14 h-14 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl mx-auto">
+                                <i class="fa-solid fa-cart-flatbed"></i>
+                            </div>
+                            <p class="text-sm font-bold text-white">PT. Kalbe Farma, Tbk.</p>
+                            <p class="text-xs text-slate-400">Enterprise E-Procurement (5 Subsidiaries)</p>
+                        </div>
+                        <span class="absolute top-3 left-3 px-3 py-1 bg-emerald-600 text-white text-xs font-semibold rounded-lg shadow">Enterprise ERP</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-emerald-300 text-xs font-mono rounded-lg border border-slate-700">PHP &bull; SQL</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                E-Procurement Multi-Subsidiary System
+                            </h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">
+                                Unified corporate procurement platform connecting 5 pharmaceutical subsidiaries (Kalbe Farma, Dankos, Hexpharm Jaya, Finusolprima, Global Onkolab). Includes PR/PO automation, vendor evaluation (EKV), and tender management.
+                            </p>
+                            <div class="flex flex-wrap gap-1.5 pt-2">
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-emerald-300 rounded font-mono">E-Procurement</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Master Code</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Tender Engine</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Email Blasting</span>
+                            </div>
+                        </div>
+                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-emerald-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-building-shield"></i> Production Enterprise
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Corporate Procurement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: PT Indo Cali Plast ERP & SEO -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="erp seo web">
+                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6 border-b border-slate-800">
+                        <div class="text-center space-y-2">
+                            <div class="w-14 h-14 rounded-2xl bg-brand-500/20 text-brand-400 flex items-center justify-center text-2xl mx-auto">
+                                <i class="fa-solid fa-industry"></i>
+                            </div>
+                            <p class="text-sm font-bold text-white">PT. Indo Cali Plast</p>
+                            <p class="text-xs text-slate-400">SAP B1 Core Customization & Technical SEO</p>
+                        </div>
+                        <span class="absolute top-3 left-3 px-3 py-1 bg-brand-600 text-white text-xs font-semibold rounded-lg shadow">Active System</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-brand-300 text-xs font-mono rounded-lg border border-slate-700">SAP B1 &bull; VB.NET</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                                Manufacturing ERP & Corporate Web SEO
+                            </h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">
+                                Custom ERP integration on top of SAP Business One for manufacturing scheduling and inventory data structures. Managed corporate web server and executed technical SEO on indocaliplast.com.
+                            </p>
+                            <div class="flex flex-wrap gap-1.5 pt-2">
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-brand-300 rounded font-mono">SAP Business One</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">VB.NET Modules</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-emerald-300 rounded font-mono">Technical SEO</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Web Server Hosting</span>
+                            </div>
+                        </div>
+                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
+                            <a href="https://indocaliplast.com" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit indocaliplast.com
+                            </a>
+                            <span class="text-xs text-slate-400 font-mono">ERP & SEO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: PT Berkah Berkat Bersatu Custom ERP -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-indigo-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="erp web">
+                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6 border-b border-slate-800">
+                        <div class="text-center space-y-2">
+                            <div class="w-14 h-14 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-2xl mx-auto">
+                                <i class="fa-solid fa-cubes-stacked"></i>
+                            </div>
+                            <p class="text-sm font-bold text-white">PT. Berkah Berkat Bersatu</p>
+                            <p class="text-xs text-slate-400">Multi-Client Custom ERP & Laravel APIs</p>
+                        </div>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-indigo-300 text-xs font-mono rounded-lg border border-slate-700">CodeIgniter &bull; Laravel</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">
+                                Multi-Tenant Client ERP & Integration APIs
+                            </h3>
+                            <p class="text-slate-400 text-xs leading-relaxed">
+                                Tailored ERP solutions for diverse corporate clients built with CodeIgniter 3 and high-efficiency Laravel REST APIs, delivering seamless operational workflows and cross-platform synchronization.
+                            </p>
+                            <div class="flex flex-wrap gap-1.5 pt-2">
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-indigo-300 rounded font-mono">CodeIgniter 3</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Laravel REST API</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">MySQL</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Clean Architecture</span>
+                            </div>
+                        </div>
+                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-indigo-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-gears"></i> Multi-Client ERP
+                            </span>
+                            <span class="text-xs text-slate-400 font-mono">Enterprise Solution</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Family LIMS Telemetry & Recovery -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="web">
                     <div class="relative h-52 overflow-hidden bg-slate-950">
                         <img src="images/project/family_lims.png" alt="Family LIMS Dashboard" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 left-3 px-3 py-1 bg-brand-600/90 backdrop-blur-md text-white text-xs font-semibold rounded-lg shadow">Flagship</span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-slate-300 text-xs font-mono rounded-lg border border-slate-700">FastAPI + Kotlin</span>
+                        <span class="absolute top-3 left-3 px-3 py-1 bg-brand-600/90 text-white text-xs font-semibold rounded-lg shadow">Fullstack & Mobile</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-slate-300 text-xs font-mono rounded-lg border border-slate-700">FastAPI + Kotlin</span>
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div class="space-y-3">
@@ -615,7 +825,7 @@
                                 Family LIMS — Telemetry & Remote Recovery
                             </h3>
                             <p class="text-slate-400 text-xs leading-relaxed">
-                                Family intelligence & safety platform featuring real-time GPS tracking (FusedLocationProviderClient), conscious camera assistance (CameraX), network telemetry, and audit trail logging.
+                                Real-time device recovery and safety platform featuring precision GPS tracking (FusedLocationProviderClient), camera assistance with conscious consent (CameraX), and audit logging.
                             </p>
                             <div class="flex flex-wrap gap-1.5 pt-2">
                                 <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-brand-300 rounded font-mono">Python FastAPI</span>
@@ -626,87 +836,55 @@
                         </div>
                         <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
                             <a href="https://github.com/Halfismutaqin/Family-LIMS" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
-                                <i class="fa-brands fa-github"></i> View Repository
+                                <i class="fa-brands fa-github"></i> View GitHub Repo
                             </a>
-                            <span class="text-xs text-slate-400 font-mono">Fullstack / Mobile</span>
+                            <span class="text-xs text-slate-400 font-mono">Real-time Web</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Kas Digital Financial API -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="backend">
-                    <div class="relative h-52 overflow-hidden bg-slate-950">
-                        <img src="images/project/kas_digital.PNG" alt="Kas Digital Financial System" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-emerald-400 text-xs font-mono rounded-lg border border-slate-700">Golang (Gin)</span>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
-                                Kas Digital — Financial Engine & API
-                            </h3>
-                            <p class="text-slate-400 text-xs leading-relaxed">
-                                High-throughput financial ledger backend handling transaction recording, dual-entry accounting verification, structured audit trails, and multi-tenant financial reporting.
-                            </p>
-                            <div class="flex flex-wrap gap-1.5 pt-2">
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Golang</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Gin-Gonic</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">MySQL</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">JWT Auth</span>
-                            </div>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
-                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
-                                <i class="fa-brands fa-github"></i> GitHub Profile
-                            </a>
-                            <span class="text-xs text-slate-400 font-mono">Backend Engine</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: ArchStore E-Commerce & Payment -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="fullstack">
-                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6">
+                <!-- Project 5: ArchStore E-Commerce & Midtrans -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-purple-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="web seo">
+                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6 border-b border-slate-800">
                         <div class="text-center space-y-2">
-                            <div class="w-14 h-14 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-2xl mx-auto">
+                            <div class="w-14 h-14 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-2xl mx-auto">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </div>
                             <p class="text-sm font-bold text-white">ArchStore Platform</p>
-                            <p class="text-xs text-slate-400">Building Supplies & Architectural Store</p>
+                            <p class="text-xs text-slate-400">Architectural Commerce & SEO Product Catalog</p>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-slate-300 text-xs font-mono rounded-lg border border-slate-700">Laravel 9</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-purple-300 text-xs font-mono rounded-lg border border-slate-700">Laravel 9</span>
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div class="space-y-3">
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
-                                ArchStore — E-Commerce & Logistics
+                            <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
+                                ArchStore — Commerce, Payment & SEO
                             </h3>
                             <p class="text-slate-400 text-xs leading-relaxed">
-                                Architectural merchandise store integrated with automated Midtrans Snap payment gateway and RajaOngkir multi-courier real-time shipping calculation.
+                                Architectural supplies e-commerce platform integrated with Midtrans Snap payment gateway, RajaOngkir multi-courier shipping API, and SEO-optimized product pages.
                             </p>
                             <div class="flex flex-wrap gap-1.5 pt-2">
                                 <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Laravel 9</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Midtrans API</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">RajaOngkir</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">MySQL</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-purple-300 rounded font-mono">Midtrans API</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-emerald-300 rounded font-mono">RajaOngkir</span>
+                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Product SEO</span>
                             </div>
                         </div>
                         <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
-                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
+                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-purple-400 hover:text-purple-300 flex items-center gap-1.5">
                                 <i class="fa-brands fa-github"></i> Repository
                             </a>
-                            <span class="text-xs text-slate-400 font-mono">Fullstack</span>
+                            <span class="text-xs text-slate-400 font-mono">Commerce & SEO</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 4: SIMM Internship Management -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="fullstack">
+                <!-- Project 6: SIMM Enterprise Internship Management -->
+                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="web erp">
                     <div class="relative h-52 overflow-hidden bg-slate-950">
                         <img src="images/project/simm1.PNG" alt="SIMM Internship Management System" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-slate-300 text-xs font-mono rounded-lg border border-slate-700">CodeIgniter</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 text-slate-300 text-xs font-mono rounded-lg border border-slate-700">CodeIgniter</span>
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div class="space-y-3">
@@ -714,7 +892,7 @@
                                 SIMM — Enterprise Internship Management
                             </h3>
                             <p class="text-slate-400 text-xs leading-relaxed">
-                                End-to-end internship administration system automating student registrations, mentor evaluations, weekly progress logs, and verified completion certificates.
+                                Complete workflow system automating student registration, mentor evaluations, weekly logging, and performance certificate generation with role-based access control.
                             </p>
                             <div class="flex flex-wrap gap-1.5 pt-2">
                                 <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">CodeIgniter</span>
@@ -724,293 +902,285 @@
                             </div>
                         </div>
                         <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
-                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
+                            <span class="text-xs font-semibold text-brand-400 flex items-center gap-1.5">
                                 <i class="fa-solid fa-folder-open"></i> Enterprise System
-                            </a>
+                            </span>
                             <span class="text-xs text-slate-400 font-mono">Institutional Web</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 5: SPAM Geofenced Attendance -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="mobile fullstack">
-                    <div class="relative h-52 overflow-hidden bg-slate-950">
-                        <img src="images/project/spam1.PNG" alt="SPAM Attendance Web" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-slate-300 text-xs font-mono rounded-lg border border-slate-700">Geolocation</span>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
-                                SPAM — Intern Attendance & Verification
-                            </h3>
-                            <p class="text-slate-400 text-xs leading-relaxed">
-                                Real-time web-based attendance application with coordinates verification, daily activity submissions, and automated timesheet report generation for supervisors.
-                            </p>
-                            <div class="flex flex-wrap gap-1.5 pt-2">
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">PHP</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">JavaScript</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Geolocation API</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">MySQL</span>
-                            </div>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
-                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
-                                <i class="fa-solid fa-code"></i> Production Tool
-                            </a>
-                            <span class="text-xs text-slate-400 font-mono">Productivity</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 6: Hospital Integration Middleware (SIMRS) -->
-                <div class="project-card group bg-dark-card border border-slate-800 rounded-3xl overflow-hidden hover:border-brand-500/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col" data-category="backend">
-                    <div class="relative h-52 overflow-hidden bg-slate-900 flex items-center justify-center p-6">
-                        <div class="text-center space-y-2">
-                            <div class="w-14 h-14 rounded-2xl bg-rose-500/20 text-rose-400 flex items-center justify-center text-2xl mx-auto">
-                                <i class="fa-solid fa-heart-pulse"></i>
-                            </div>
-                            <p class="text-sm font-bold text-white">Hospital SIMRS Middleware</p>
-                            <p class="text-xs text-slate-400">Medical Device Data Interfacing</p>
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark-card via-transparent to-transparent"></div>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 bg-dark-bg/80 backdrop-blur-md text-rose-400 text-xs font-mono rounded-lg border border-slate-700">Healthcare</span>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col justify-between">
-                        <div class="space-y-3">
-                            <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
-                                SIMRS Diagnostic Device Middleware
-                            </h3>
-                            <p class="text-slate-400 text-xs leading-relaxed">
-                                Clinical integration service bridging laboratory diagnostic machines with the Hospital Information System (SIMRS) using Node.js & Firebird SQL for instant test results synchronization.
-                            </p>
-                            <div class="flex flex-wrap gap-1.5 pt-2">
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Express.js</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Firebird DB</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">Socket.io</span>
-                                <span class="px-2 py-0.5 text-[11px] bg-slate-800 text-slate-300 rounded font-mono">HL7 / REST</span>
-                            </div>
-                        </div>
-                        <div class="pt-6 mt-4 border-t border-slate-800/80 flex items-center justify-between">
-                            <a href="https://github.com/Halfismutaqin" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 flex items-center gap-1.5">
-                                <i class="fa-solid fa-network-wired"></i> Medical System
-                            </a>
-                            <span class="text-xs text-slate-400 font-mono">Middleware</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
 
-        <!-- WORK EXPERIENCE & EDUCATION TIMELINE -->
-        <section id="experience" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
+        <!-- SKILLS & PROFICIENCIES -->
+        <section id="skills" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">
-                    <i class="fa-solid fa-briefcase"></i> Track Record
+                    <i class="fa-solid fa-wrench"></i> Technical Arsenal
                 </div>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
-                    Experience & Education Journey
+                    Skills & Technology Stack
                 </h2>
                 <p class="text-slate-400 mt-2 text-base">
-                    A progressive track record in software engineering, technical mentorship, and academic excellence.
+                    Languages, enterprise platforms, frameworks, and search optimization tools utilized in production.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Work Experience Column -->
-                <div class="space-y-6">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-briefcase"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-white">Professional Experience</h3>
-                    </div>
-
-                    <div class="relative pl-6 border-l-2 border-slate-800 space-y-8">
-                        
-                        <!-- Role 1 -->
-                        <div class="relative group">
-                            <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-brand-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <span class="text-xs font-mono font-semibold text-brand-400 px-2.5 py-1 bg-brand-500/10 rounded-md border border-brand-500/20">2021 — PRESENT</span>
-                            <h4 class="text-lg font-bold text-white mt-2">Fullstack Software Engineer & Founder</h4>
-                            <p class="text-xs text-slate-300 font-medium">Half Tech Digital Solutions • Karanganyar, Indonesia</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Lead end-to-end development of client applications, custom web platforms, and REST APIs. Built payment gateway integrations (Midtrans), logistic engines (RajaOngkir), and telemetry dashboards for small-to-medium businesses and institutional clients.
-                            </p>
-                        </div>
-
-                        <!-- Role 2 -->
-                        <div class="relative group">
-                            <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-purple-500 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <span class="text-xs font-mono font-semibold text-purple-400 px-2.5 py-1 bg-purple-500/10 rounded-md border border-purple-500/20">2021 — PRESENT</span>
-                            <h4 class="text-lg font-bold text-white mt-2">Programming Mentor & Technical Advisor</h4>
-                            <p class="text-xs text-slate-300 font-medium">CodingDay • SMK N2 Karanganyar</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Mentoring high school software engineering students in web fundamentals, algorithmic thinking, relational databases, Git version control, and collaborative project execution.
-                            </p>
-                        </div>
-
-                        <!-- Role 3 -->
-                        <div class="relative group">
-                            <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <span class="text-xs font-mono font-semibold text-slate-400 px-2.5 py-1 bg-slate-800 rounded-md">2021</span>
-                            <h4 class="text-lg font-bold text-white mt-2">Software Developer Intern</h4>
-                            <p class="text-xs text-slate-300 font-medium">Duxeos / Digimizu • Surakarta</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Collaborated on web application development, module maintenance, API consumption, and user interface improvements in production environments.
-                            </p>
-                        </div>
-
-                        <!-- Role 4 -->
-                        <div class="relative group">
-                            <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <span class="text-xs font-mono font-semibold text-slate-400 px-2.5 py-1 bg-slate-800 rounded-md">2017</span>
-                            <h4 class="text-lg font-bold text-white mt-2">IT & Network Support Intern</h4>
-                            <p class="text-xs text-slate-300 font-medium">ICT FISIP Universitas Sebelas Maret (UNS) • Surakarta</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Assisted in university local area network configuration, troubleshooting workstation issues, hardware diagnostics, and server room infrastructure maintenance.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Education Column -->
-                <div class="space-y-6">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-white">Education & Academics</h3>
-                    </div>
-
-                    <div class="relative pl-6 border-l-2 border-slate-800 space-y-8">
-                        
-                        <!-- Higher Education -->
-                        <div class="relative group bg-dark-card border border-emerald-500/30 p-5 rounded-2xl">
-                            <div class="absolute -left-[31px] top-6 w-4 h-4 rounded-full bg-emerald-400 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <div class="flex items-center justify-between">
-                                <span class="text-xs font-mono font-semibold text-emerald-400 px-2.5 py-1 bg-emerald-500/10 rounded-md border border-emerald-500/20">2018 — 2022</span>
-                                <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md">GPA 3.83 / 4.00 (Cum Laude)</span>
-                            </div>
-                            <h4 class="text-lg font-bold text-white mt-3">S1 - Sistem Informasi (Bachelor of Information Systems)</h4>
-                            <p class="text-xs text-slate-300 font-medium">Universitas Duta Bangsa Surakarta</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Specialized in Software Engineering, Enterprise Architecture, Database Management Systems, and System Analysis. Graduated with Honors (Cum Laude).
-                            </p>
-                        </div>
-
-                        <!-- Vocational High School -->
-                        <div class="relative group bg-dark-card border border-slate-800 p-5 rounded-2xl">
-                            <div class="absolute -left-[31px] top-6 w-4 h-4 rounded-full bg-slate-600 border-4 border-dark-bg group-hover:scale-125 transition-transform"></div>
-                            <span class="text-xs font-mono font-semibold text-slate-400 px-2.5 py-1 bg-slate-800 rounded-md">2015 — 2018</span>
-                            <h4 class="text-lg font-bold text-white mt-3">Rekayasa Perangkat Lunak (Software Engineering)</h4>
-                            <p class="text-xs text-slate-300 font-medium">SMK Negeri 2 Karanganyar</p>
-                            <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-                                Three-year vocational software engineering curriculum mastering OOP, relational database design with SQL, web fundamentals, and system troubleshooting.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- VERIFIED CERTIFICATIONS -->
-        <section id="certifications" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider mb-2">
-                    <i class="fa-solid fa-award"></i> Verified Credentials
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
-                    National Competency Certifications
-                </h2>
-                <p class="text-slate-400 mt-2 text-base">
-                    Officially evaluated and certified competencies by national standard boards (BNSP) and Kominfo.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                
-                <!-- Cert 1 -->
-                <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-brand-500/50 transition-all flex flex-col justify-between">
-                    <div class="space-y-3">
+                <!-- Skill Card 1: ERP & Enterprise Architecture -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
                         <div class="w-10 h-10 rounded-xl bg-brand-500/10 text-brand-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-certificate"></i>
+                            <i class="fa-solid fa-network-wired"></i>
                         </div>
-                        <span class="inline-block text-[11px] font-mono text-brand-400 bg-brand-500/10 px-2 py-0.5 rounded">2022 • Surakarta</span>
-                        <h3 class="text-base font-bold text-white">Junior Web Developer</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Issued by BPSDMP Kominfo Yogyakarta. Certified competency in modern web development, standard frontend/backend architecture, and web security.
-                        </p>
+                        <div>
+                            <h3 class="text-base font-bold text-white">ERP & Enterprise Systems</h3>
+                            <p class="text-xs text-slate-400">SAP B1, E-Procurement, EAS</p>
+                        </div>
                     </div>
-                    <div class="pt-4 mt-4 border-t border-slate-800/80 flex items-center gap-2 text-xs text-slate-300">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>Kominfo / BNSP</span>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-brand-300 border border-slate-700/60 rounded-lg font-mono">SAP Business One Core</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-brand-300 border border-slate-700/60 rounded-lg font-mono">VB.NET Custom ERP</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">E-Procurement Workflows</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">PR & PO Lifecycle</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">EKV Vendor Evaluation</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">System Analysis</span>
                     </div>
                 </div>
 
-                <!-- Cert 2 -->
-                <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-purple-500/50 transition-all flex flex-col justify-between">
-                    <div class="space-y-3">
+                <!-- Skill Card 2: Web Development & Frameworks -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
                         <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg">
                             <i class="fa-solid fa-code"></i>
                         </div>
-                        <span class="inline-block text-[11px] font-mono text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">2022 • Surakarta</span>
-                        <h3 class="text-base font-bold text-white">Programmer Junior</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Issued by Universitas Duta Bangsa Surakarta. Professional evaluation in programming logic, algorithms, and application implementation.
-                        </p>
+                        <div>
+                            <h3 class="text-base font-bold text-white">Web Development & APIs</h3>
+                            <p class="text-xs text-slate-400">PHP, Golang, Python, REST</p>
+                        </div>
                     </div>
-                    <div class="pt-4 mt-4 border-t border-slate-800/80 flex items-center gap-2 text-xs text-slate-300">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>University Board</span>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-purple-300 border border-slate-700/60 rounded-lg font-mono">PHP (Laravel & CI3)</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-purple-300 border border-slate-700/60 rounded-lg font-mono">Golang (Gin-Gonic)</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Python (FastAPI)</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">React.js & Vue.js</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Tailwind CSS & Bootstrap</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">RESTful API Design</span>
                     </div>
                 </div>
 
-                <!-- Cert 3 -->
-                <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col justify-between">
-                    <div class="space-y-3">
+                <!-- Skill Card 3: Technical SEO & Web Performance -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
                         <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-microchip"></i>
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
                         </div>
-                        <span class="inline-block text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">2018 • Mojokerto</span>
-                        <h3 class="text-base font-bold text-white">Junior Technical Support</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Issued by LSP TIK Surabaya. Certification in IT hardware maintenance, network infrastructure troubleshooting, and system operating support.
-                        </p>
+                        <div>
+                            <h3 class="text-base font-bold text-white">SEO & Performance</h3>
+                            <p class="text-xs text-slate-400">Search Visibility & Speed</p>
+                        </div>
                     </div>
-                    <div class="pt-4 mt-4 border-t border-slate-800/80 flex items-center gap-2 text-xs text-slate-300">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>LSP TIK / BNSP</span>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-emerald-300 border border-slate-700/60 rounded-lg font-mono">Technical SEO</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-emerald-300 border border-slate-700/60 rounded-lg font-mono">Schema.org / JSON-LD</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Core Web Vitals</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Web Server Hosting</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Server Caching & Nginx</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Usability & Accessibility</span>
                     </div>
                 </div>
 
-                <!-- Cert 4 -->
-                <div class="glassmorphism p-6 rounded-2xl border border-slate-800 hover:border-pink-500/50 transition-all flex flex-col justify-between">
-                    <div class="space-y-3">
-                        <div class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg">
-                            <i class="fa-solid fa-laptop-code"></i>
+                <!-- Skill Card 4: Database Administration -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-database"></i>
                         </div>
-                        <span class="inline-block text-[11px] font-mono text-pink-400 bg-pink-500/10 px-2 py-0.5 rounded">2018 • Yogyakarta</span>
-                        <h3 class="text-base font-bold text-white">Programmer Junior</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Issued by BPSDMP Kominfo Yogyakarta. Early career qualification benchmark in structured programming, algorithm design, and software documentation.
-                        </p>
+                        <div>
+                            <h3 class="text-base font-bold text-white">Database Administration</h3>
+                            <p class="text-xs text-slate-400">Relational & Schema Tuning</p>
+                        </div>
                     </div>
-                    <div class="pt-4 mt-4 border-t border-slate-800/80 flex items-center gap-2 text-xs text-slate-300">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>Kominfo / BNSP</span>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">MySQL / MariaDB</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">SQL Server</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">PostgreSQL</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Firebird DB</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Index Optimization</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Relational Data Integrity</span>
+                    </div>
+                </div>
+
+                <!-- Skill Card 5: Integrations & Payments -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
+                        <div class="w-10 h-10 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-base font-bold text-white">Third-Party Integrations</h3>
+                            <p class="text-xs text-slate-400">Gateways, Logistics & FCM</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Midtrans Payment Snap</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">RajaOngkir Shipping API</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Email Blasting Automation</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Firebase (FCM)</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">OpenStreetMap / Leaflet</span>
+                    </div>
+                </div>
+
+                <!-- Skill Card 6: Technical Support & Tools -->
+                <div class="bg-dark-card border border-slate-800 rounded-2xl p-6 hover:border-slate-700 transition-all">
+                    <div class="flex items-center gap-3 mb-5">
+                        <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-base font-bold text-white">Technical Support & Tools</h3>
+                            <p class="text-xs text-slate-400">Infrastructure & Testing</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Technical Support (BNSP)</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Git & GitHub Versioning</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Linux & Windows Servers</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Testing & Debugging</span>
+                        <span class="px-3 py-1.5 text-xs bg-slate-800/80 text-slate-200 border border-slate-700/60 rounded-lg font-mono">Hardware Diagnostics</span>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- CONTACT & CTA -->
+        <!-- EDUCATION & ACHIEVEMENTS -->
+        <section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Left: Academic Background -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-graduation-cap"></i> Verified Academics
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-white">
+                        Education & Honors
+                    </h2>
+
+                    <!-- Higher Education -->
+                    <div class="bg-dark-card border border-emerald-500/30 p-6 rounded-2xl relative shadow-lg">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-mono font-bold text-emerald-400 px-3 py-1 bg-emerald-500/10 rounded-md border border-emerald-500/20">2018 — 2022</span>
+                            <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-md">GPA 3.83 / 4.00 (Cum Laude)</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mt-3">Universitas Duta Bangsa Surakarta</h3>
+                        <p class="text-xs text-slate-300 font-medium">S1 Sistem Informasi (Bachelor of Information Systems)</p>
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                            Graduated with honors focusing on designing and developing web-based enterprise systems, database administration, and application architecture addressing business needs effectively.
+                        </p>
+                    </div>
+
+                    <!-- Vocational High School -->
+                    <div class="bg-dark-card border border-slate-800 p-6 rounded-2xl">
+                        <span class="text-xs font-mono font-bold text-slate-400 px-3 py-1 bg-slate-800 rounded-md">2015 — 2018</span>
+                        <h3 class="text-lg font-bold text-white mt-3">SMK Negeri 02 Karanganyar</h3>
+                        <p class="text-xs text-slate-300 font-medium">Rekayasa Perangkat Lunak (Software Engineering)</p>
+                        <p class="text-xs text-slate-400 mt-2 leading-relaxed">
+                            Active member of the IT Laboratory Team assisting in setting up, maintaining, and repairing computers and networks. Honed practical hardware, software, and programming fundamentals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Verified Certifications & Leadership -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-purple-400 font-mono text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-award"></i> Credentials & Awards
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-white">
+                        Certifications & Recognition
+                    </h2>
+
+                    <div class="space-y-3">
+                        
+                        <!-- Award: VSGA -->
+                        <div class="glassmorphism p-4 rounded-xl border border-yellow-500/30 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-yellow-500/10 text-yellow-400 flex items-center justify-center text-lg">
+                                    <i class="fa-solid fa-trophy"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-white">VSGA Best Participant Award — Junior Web Developer</h4>
+                                    <p class="text-xs text-slate-400">DTS Workshop 2022 &bull; Yogyakarta</p>
+                                </div>
+                            </div>
+                            <span class="text-xs font-mono text-yellow-400 font-bold bg-yellow-500/10 px-2 py-1 rounded">Award</span>
+                        </div>
+
+                        <!-- Cert: Junior Web Developer -->
+                        <div class="glassmorphism p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-brand-500/10 text-brand-400 flex items-center justify-center text-lg">
+                                    <i class="fa-solid fa-certificate"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-white">Sertifikasi Kompetensi — Junior Web Developer</h4>
+                                    <p class="text-xs text-slate-400">BPSDMP Kominfo Yogyakarta &bull; Surakarta, 2022</p>
+                                </div>
+                            </div>
+                            <span class="text-xs font-mono text-emerald-400">BNSP / Kominfo</span>
+                        </div>
+
+                        <!-- Cert: Junior Programmer UJK -->
+                        <div class="glassmorphism p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-white">Sertifikasi Kompetensi — Junior Programmer</h4>
+                                    <p class="text-xs text-slate-400">UJK Universitas Duta Bangsa Surakarta &bull; Surakarta, 2022</p>
+                                </div>
+                            </div>
+                            <span class="text-xs font-mono text-emerald-400">University Board</span>
+                        </div>
+
+                        <!-- Cert: Technical Support -->
+                        <div class="glassmorphism p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg">
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-white">Sertifikasi Kompetensi — Junior Technical Support</h4>
+                                    <p class="text-xs text-slate-400">LSP TIK Surabaya &bull; Mojokerto, 2018</p>
+                                </div>
+                            </div>
+                            <span class="text-xs font-mono text-emerald-400">BNSP</span>
+                        </div>
+
+                        <!-- Leadership -->
+                        <div class="glassmorphism p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center text-lg">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-white">Coding Day Mentor & Chairman of LPP Bhakti Karya</h4>
+                                    <p class="text-xs text-slate-400">SMK N 2 Karanganyar (2021–2023) &bull; Karang Taruna (2023)</p>
+                                </div>
+                            </div>
+                            <span class="text-xs font-mono text-pink-400">Leadership</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT & CALL TO ACTION -->
         <section id="contact" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-slate-800/80">
             <div class="bg-gradient-to-br from-dark-card via-slate-900 to-indigo-950/40 border border-slate-800 rounded-3xl p-8 sm:p-12 lg:p-16 relative overflow-hidden">
                 <div class="absolute -right-20 -top-20 w-80 h-80 bg-brand-600/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -1019,16 +1189,16 @@
                     
                     <div class="lg:col-span-7 space-y-6">
                         <div class="inline-flex items-center gap-2 text-brand-400 font-mono text-xs font-bold uppercase tracking-wider">
-                            <i class="fa-solid fa-handshake"></i> Get in Touch
+                            <i class="fa-solid fa-handshake"></i> Direct Contact
                         </div>
                         <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-                            Ready to Build Exceptional Software Together?
+                            Let's Discuss ERP, Web Development, or High-Impact Engineering
                         </h2>
                         <p class="text-slate-300 text-base leading-relaxed">
-                            I am open to full-time software engineering roles, high-impact backend contracts, and technical collaborations. Feel free to reach out directly via email, phone/WhatsApp, or connect on LinkedIn.
+                            Interested in discussing a software engineering role, custom ERP module development, technical SEO strategy, or fullstack web architecture? Feel free to reach out directly:
                         </p>
 
-                        <!-- Direct Contact List -->
+                        <!-- Contact Channel Cards -->
                         <div class="space-y-4 pt-2">
                             
                             <div class="flex items-center gap-4 group">
@@ -1036,7 +1206,7 @@
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="flex-1">
-                                    <p class="text-xs text-slate-400">Email Address</p>
+                                    <p class="text-xs text-slate-400">Direct Email</p>
                                     <a href="mailto:halfismutaqin@gmail.com" class="text-sm sm:text-base font-semibold text-white hover:text-brand-400 transition-colors">
                                         halfismutaqin@gmail.com
                                     </a>
@@ -1073,24 +1243,24 @@
                         </div>
                     </div>
 
-                    <!-- Right Quick Form / Direct Action -->
+                    <!-- Right Quick Inquiry Form -->
                     <div class="lg:col-span-5 bg-dark-bg/90 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-4 shadow-2xl">
-                        <h3 class="text-lg font-bold text-white mb-2">Send a Quick Message</h3>
+                        <h3 class="text-lg font-bold text-white mb-2">Send an Inquiry</h3>
                         
                         <form action="mailto:halfismutaqin@gmail.com" method="GET" class="space-y-4">
                             <div>
                                 <label class="block text-xs font-mono text-slate-400 mb-1">Subject</label>
-                                <input type="text" name="subject" value="Inquiry for Software Engineering Role" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-colors">
+                                <input type="text" name="subject" value="Inquiry for ERP / Web Development Role" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-colors">
                             </div>
 
                             <div>
-                                <label class="block text-xs font-mono text-slate-400 mb-1">Your Message</label>
-                                <textarea name="body" rows="4" placeholder="Hello Halfis, I saw your portfolio and would like to discuss..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-colors resize-none"></textarea>
+                                <label class="block text-xs font-mono text-slate-400 mb-1">Message</label>
+                                <textarea name="body" rows="4" placeholder="Hello Hadi, I reviewed your experience with ERP, web systems, and SEO..." class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-colors resize-none"></textarea>
                             </div>
 
                             <button type="submit" class="w-full py-3 px-6 rounded-xl bg-gradient-to-r from-brand-600 to-purple-600 hover:from-brand-500 hover:to-purple-500 text-white font-semibold text-sm shadow-lg shadow-brand-600/30 transition-all flex items-center justify-center gap-2">
                                 <i class="fa-solid fa-paper-plane text-xs"></i>
-                                <span>Send via Default Email App</span>
+                                <span>Send Email</span>
                             </button>
                         </form>
                     </div>
@@ -1107,10 +1277,10 @@
             
             <div class="flex items-center gap-3">
                 <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-600 to-purple-600 flex items-center justify-center text-white font-mono font-bold text-sm">
-                    HM
+                    <i class="fa-solid fa-code text-xs"></i>
                 </div>
                 <p class="text-xs text-slate-400">
-                    &copy; 2026 <strong class="text-white">Halfis Mutaqin</strong>. All rights reserved.
+                    &copy; 2026 <strong class="text-white">Hadi (Halfis) Mutaqin</strong>. All rights reserved.
                 </p>
             </div>
 
@@ -1131,7 +1301,7 @@
             </div>
 
             <p class="text-xs text-slate-500 font-mono">
-                Hosted with <i class="fa-solid fa-heart text-rose-500"></i> on GitHub Pages
+                Hosted on GitHub Pages
             </p>
 
         </div>
@@ -1153,7 +1323,6 @@
             }
         });
 
-        // Close mobile nav when clicking a link
         document.querySelectorAll('.mobile-link').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
@@ -1161,7 +1330,7 @@
             });
         });
 
-        // Sticky Navbar Glass Effect on Scroll
+        // Sticky Navbar Glass Effect
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 20) {
@@ -1177,13 +1346,11 @@
 
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                // Remove active classes
                 filterBtns.forEach(b => {
                     b.classList.remove('active', 'bg-brand-600', 'text-white');
                     b.classList.add('bg-slate-800', 'text-slate-300');
                 });
 
-                // Add active to clicked button
                 btn.classList.add('active', 'bg-brand-600', 'text-white');
                 btn.classList.remove('bg-slate-800', 'text-slate-300');
 
